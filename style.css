@@ -14,27 +14,29 @@ body{
 }
 
 .pcard{
-    height: 450px;
+    height: 26rem;
     margin: 50px;
     box-shadow: 0px 0px 20px rgb(243, 241, 241);
     border-radius: 5px;
     overflow: hidden;
+    position:relative;
 }
 
 img{
-    height: 450px;
+    height: 30rem;
     width: 350px;
     transition: 0.5s;
+    position: relative;
 }
 
 .caption{
-    height:75px;
+    height:5em;
     width: 350px;
     padding: 6px;
     position: absolute ;
     background:rgb(27,27,27,0.5);
     color: white;
-    bottom: 130px;
+    bottom: 0;
     transition: 0.5s;
 }
 h1{
