@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.pcard{
+    height: 450px;
+    margin: 50px;
+    box-shadow: 0px 0px 20px rgb(243, 241, 241);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+img{
+    height: 450px;
+    width: 350px;
+    transition: 0.5s;
+}
+
+.caption{
+    height:75px;
+    width: 350px;
+    padding: 6px;
+    position: absolute ;
+    background:rgb(27,27,27,0.5);
+    color: white;
+    bottom: 130px;
+    transition: 0.5s;
+}
+h1{
+    margin: 10px;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+}
+a{
+    color: white;
+    font-size: 30px;
+    flex-direction: row;
+    margin-left: 55px;
+}
+.pcard:hover{
+    cursor: pointer;
+}
+.pcard:hover .caption{
+    height: 220px;
+}
+.pcard:hover p{
+    visibility: visible;
+}
+.pcard:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
